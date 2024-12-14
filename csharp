@@ -1,0 +1,12 @@
+luuhart/
+├── core/
+│   ├── templates/
+│   │   └── core/
+│   │       ├── base.html
+│   │       └── home.html
+├── templates/  # (Opcional: Diretório global de templates)
+├── manage.py
+└── luuhart/
+    ├── settings.py
+    ├── urls.py
+    └── ...

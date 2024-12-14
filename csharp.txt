@@ -1,0 +1,18 @@
+luuhart/
+├── core/
+│   ├── templates/
+│   │   └── core/
+│   │       ├── base.html
+│   │       └── home.html
+├── templates/  # (Opcional: Diretório global de templates)
+├── manage.py
+└── luuhart/
+    ├── settings.py
+    ├── urls.py
+    └── ...
+
+    Watching for file changes with StatReloader
+Performing system checks...
+
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.

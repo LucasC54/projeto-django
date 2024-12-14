@@ -1,0 +1,25 @@
+luuhart/             # Diretório do projeto
+├── luuhart/         # Diretório principal do projeto
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── core/            # Diretório do app
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py      # Aqui ficam as rotas do app
+│   └── views.py     # Aqui ficam as views do app
+├── templates/       # Diretório de templates
+│   └── core/
+│       └── home.html # Template da página inicial
+└── manage.py
+
+python manage.py runserver
+
+python manage.py runserver 8080
+
